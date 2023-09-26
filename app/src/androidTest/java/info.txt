@@ -1,0 +1,4 @@
+1.  This line in the XML defines the constraint layout "androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android""
+    strings.xml defines string resources
+    private void populateListView(int selection) populates the listview and the call in oncreate will actually do it
+2.
