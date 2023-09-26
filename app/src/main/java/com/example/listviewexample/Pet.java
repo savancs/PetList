@@ -1,4 +1,4 @@
-package model;
+package com.example.listviewexample;
 
 public class Pet {
     private String name;
@@ -23,6 +23,7 @@ public class Pet {
         return breed;
     }
 
+
     public void setBreed(String breed) {
         this.breed = breed;
     }
@@ -33,5 +34,12 @@ public class Pet {
 
     public void setAge(int age) {
         this.age = age;
+    }
+
+
+    @Override
+    public String toString() {
+        //name (breed): age
+        return name + "(" + breed + ") :" + age;
     }
 }
